@@ -111,6 +111,7 @@ forwards:
   resource: service/ts-price-service
   remote_port: 16579
   local_port: 26579
+access: node_port
 primary_endpoint: config
 http_probes:
 - endpoint: config
